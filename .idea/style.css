@@ -1,0 +1,83 @@
+body {
+    background-color: #f2f3f5;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+}
+.magra-regular {
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.magra-bold {
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+h1, h2{
+    font-family: Magra, sans-serif;
+}
+h3, h4, h5, h6{
+    font-family: Montserrat, sans-serif;
+}
+p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar-brand{
+    font-family: Magra, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#passwordHelpBlock, #passwordHelpBlock2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+label{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.btn{
+    font-family: Magra, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.btn-outline-danger{
+    background-color: #ff4140;
+    color: #fff;
+    border-color: #b03130;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(105, 23, 21);
+    transition: background-color 0.3s ease;
+}
+.btn-custom{
+    background-color: #313272;
+    color: #f1efef;
+    border-color: #313272;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(23, 23, 47);
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #181f46;
+    color: #f1efef;
+}
+.btn-secondary{
+    background-color: #454548;
+    color: #f0f0f5;
+    border-color: #323236;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(62, 62, 65);
+    transition: background-color 0.3s ease;
+}
