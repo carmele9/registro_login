@@ -24,7 +24,7 @@
             <h2 class="text-center">Bienvenido</h2>
             <div class="card mt-4">
                 <div class="card-body">
-                    <form id="loginForm" method="POST" action="/login">
+                    <form id="loginForm" method="POST" action="login.php">
                         <h4>Iniciar Sesión</h4>
                         <div class="mb-3">
                             <label for="username" class="form-label">Usuario</label>
@@ -35,10 +35,10 @@
                             <input type="password" class="form-control" id="password" name="password" aria-describedby="passwordHelpBlock" required>
                             <div id="passwordHelpBlock" class="form-text"><strong>La contraseña debe tener entre 8-12 caracteres</strong></div>
                         </div>
-                        <button type="submit" class="btn btn-custom">Iniciar Sesión</button>
+                        <input type="submit" class="btn btn-custom" value="Iniciar Sesión" name="login"/>
                     </form>
                     <hr>
-                    <form id="registerForm" method="POST" action="/register">
+                    <form id="registerForm" method="POST" action="register.php">
                         <h4>Registrarse</h4>
                         <div class="mb-3">
                             <label for="newUsername" class="form-label">Usuario</label>
@@ -46,7 +46,7 @@
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="registerEmail">Email</label>
-                            <input type="email" id="registerEmail" class="form-control" />
+                            <input type="email" id="registerEmail" class="form-control" name="email" required/>
                         </div>
                         <div class="mb-3">
                             <label for="newPassword" class="form-label">Contraseña</label>
@@ -55,12 +55,12 @@
                         </div>
                         <div class="form-check d-flex justify-content-center mb-4">
                             <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck"
-                                   aria-describedby="registerCheckHelpText" />
+                                   aria-describedby="registerCheckHelpText" name="termsAccepted" required/>
                             <label class="form-check-label" for="registerCheck">
                                 He leido los terminos y condiciones.
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-secondary">Registrarse</button>
+                        <input type="submit" class="btn btn-secondary" value="Registrarse" name="register"/>
                         <div class="text-center">
                             <p>o entrar con:</p>
                             <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
