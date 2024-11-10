@@ -3,7 +3,7 @@ global $pdo;
 session_start();
 include'db.php';
 
-// Verificar si el usuario está logueado
+// Verificar si el usuario ha hecho log in
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
